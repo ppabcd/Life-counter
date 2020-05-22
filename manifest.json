@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Reza life",
+  "version": "1.0",
+  "description": "Reza count life",
+  "chrome_url_overrides": {
+    "newtab": "tab.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "backgroud": {
+    "scripts": [
+      "script.js"
+    ],
+    "persistent": false
+  }
+}
